@@ -36,7 +36,7 @@ public class Paul {
 		// evaluate if the input is odd or even using the ternary operator
 		// variable = <condition> ? <value if condition is true> : <value if condition is false>
 		input_parity = input_user % 2 == 0 ? "even" : "odd";
-		System.out.println("The input integer is " + input_parity);
+		System.out.println("The input integer is an " + input_parity + " number");
 		
 		System.out.println("***END OF PROGRAM***");
 	}
